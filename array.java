@@ -7,7 +7,7 @@ class HelloWorld {
         //using for each loop condition
         boolean flight= false;
         //for checking the condition
-        for(int i:a){
+        for(int i:a){ //the values in array list a will store the i variable one by one to comapare the condition
             if(i==num){
                 System.out.println("Element found");
                 flight = true;
