@@ -9,6 +9,14 @@ class HelloWorld {
               System.out.println("The Even numbers are:"+ i);
           }
       }
-    
+      /* else if(i%2!=0){
+              System.out.println("The odd numbers are:"+i);
+          }*/
+      }
+      for(int i:a){
+     if(i%2!=0){
+              System.out.println("The odd numbers are:"+i);
+          }
+      }
     }
 }
